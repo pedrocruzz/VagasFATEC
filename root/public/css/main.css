@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#menu-h {
+    background-color: #F5F5F5;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FC0F23;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-size: 14px;
+}
+
+
+.fontMenu {
+    color: #B00B18;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px !important;
+    margin-right: 1100px;
+    margin-left: 50px;
+}
+
+.myButton {
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid #fc0f23;
+    display: inline-block;
+    cursor: pointer;
+    color: #fc0f23;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    padding: 10px 20px !important;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #fc0f23;
+}
+
+.myButton:hover {
+    background-color: transparent;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.vl {
+    border-left: 2px solid #fc0f23;
+    border-top: 8px solid #fc0f23;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #014263;
+}
