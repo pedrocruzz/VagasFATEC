@@ -1,0 +1,127 @@
+
+.TabelaAlunos {
+    border-collapse: collapse;
+    box-sizing: content-box;
+
+    position: absolute;
+    width: 1150px;
+    height: 39px;
+    left: 20px;
+    right: 20px;
+    top: 243px;
+    bottom: 50px;
+
+    background: #FFFFFF;
+    border: 2px solid #7D0711;
+    align-content: center;
+}
+
+.conteúdotabelacolunas {
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+    background: #B00B18;
+    text-align: center;
+    border: 2px solid #B00B18;
+}
+
+.conteúdolinhas {
+    border: 2px solid #7D0711;
+    text-align: center;
+}
+
+.linhas {
+    border: 1px solid #7D0711;
+    text-align: center;
+    width: auto;
+}
+
+.conteúdotabela {
+    margin: auto;
+    font-size: 22px;
+    line-height: 42px;
+
+    color: #014263;
+    text-align: center;
+    border: 1px solid #7D0711;
+    text-align: center;
+}
+
+.retangulonometabela {
+
+    position: absolute;
+    width: 1152px;
+    height: 69.41px;
+    left: 20px;
+    right: 20px;
+    top: 174px;
+    bottom: 0px;
+
+    background: #B00B18;
+    border: 3px solid #7D0711;
+}
+
+.nometabela {
+    margin: auto;
+    position: relative;
+    width: 403.01px;
+    height: 42.92px;
+
+    font-size: 45px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.acessarperfilbotão {
+    position: absolute;
+    width: 194px;
+    height: 40px;
+    left: 760px;
+    top: 2520px;
+
+    background: #014263;
+    border-radius: 5px;
+    border: none;
+}
+
+.editarbotão {
+    position: absolute;
+    width: 194px;
+    height: 40px;
+    left: 978px;
+    top: 2520px;
+
+    background: #014263;
+    border-radius: 5px;
+    border: none;
+}
+
+.excluirbotão {
+    position: absolute;
+    width: 194px;
+    height: 40px;
+    left: 1206px;
+    top: 2520px;
+
+    background: #7D0711;
+    border-radius: 5px;
+    border: none;
+}
+
+.escritabotão {
+    margin: auto;
+    position: relative;
+    width: 190px;
+    height: 26px;
+
+
+    font-size: 20px;
+    line-height: 26px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
