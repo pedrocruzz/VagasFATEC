@@ -1,0 +1,116 @@
+.login {}
+
+.base {
+    margin: 0 auto;
+    width: 1002px;
+    height: 792px;
+    background: #F1F1F1;
+    border-radius: 50px;
+}
+
+.inputList{
+    margin: 0 auto;
+}
+.input {
+    width: 709px;
+    height: 72px;
+    margin-top: 5%;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.input2 {
+    width: 709px;
+    height: 72px;
+    margin-top: 5%;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.input3 {
+    width: 709px;
+    height: 72px;
+    margin-top: 5%;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.input4 {
+    width: 709px;
+    height: 72px;
+    margin-top: 5%;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.input5 {
+    width: 709px;
+    height: 72px;
+    margin-top: 5%;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.buttonConfirmar {
+    position: absolute;
+    left: 42.5%;
+    right: 42.21%;
+    top: 80.27%;
+    bottom: 14.26%;
+    background: #FC0F23;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.labelFormat {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC0F23;
+}
+
+.inputFormat {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#flex-container>.flex-item {
+    flex: auto;
+}
+
+#flex-container>.raw-item {
+    flex: auto;
+    height: 20px;
+}
+
+.tituloCadastro {
+    color: #FC0F23;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.linhaCadastro {
+    position: absolute;
+    width: 527px;
+    height: 0px;
+    border: 1px solid #B00B18;
+}
