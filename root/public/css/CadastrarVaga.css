@@ -1,0 +1,21 @@
+.CadastroVagas {
+    position: absolute;
+    width: 1002px;
+    height: 792px;
+    left: 219px;
+    top: 116px;
+
+    background-color: #F1F1F1;
+    border-radius: 50px;
+    border: none;
+
+    line-height: 30px;
+    font-size: 22px;
+    text-align: center;
+    color: #014263;
+}
+
+.publicar{
+    background-color: #B00B18;
+    color: #FFFFFF;
+}

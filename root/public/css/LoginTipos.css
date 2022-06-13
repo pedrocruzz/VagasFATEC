@@ -1,0 +1,63 @@
+.tudo {
+    position: absolute;
+    width: 1002px;
+    height: 792px;
+    left: 219px;
+    top: 116px;
+
+    background-color: #F1F1F1;
+    border-radius: 50px;
+    border: none;
+}
+
+.titulo {
+    position: absolute;
+    top: 160px;
+    width: 1000px;
+    left: 6px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.adminbotao {
+    position: absolute;
+    width: 600px;
+    height: 72px;
+    left: 420px;
+    top: 392px;
+
+    background: #B00B18;
+    border-radius: 15px;
+    border: none;
+}
+
+.alunobotao {
+    position: absolute;
+    width: 600px;
+    height: 72px;
+    left: 420px;
+    top: 484px;
+
+    background: #B00B18;
+    border-radius: 15px;
+    border: none;
+}
+
+.empresabotao {
+    position: absolute;
+    width: 600px;
+    height: 72px;
+    left: 420px;
+    top: 576px;
+
+    background: #B00B18;
+    border-radius: 15px;
+    border: none;
+}
+
+.texto {
+position: relative;
+text-align: center;
+ font-size: 35px;
+ color: #FFFFFF;
+}

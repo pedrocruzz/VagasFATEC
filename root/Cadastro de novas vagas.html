@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar nova vaga</title>
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/CadastrarVaga.css">
+</head>
+
+<body>
+    <button class="CadastroVagas">
+        <form action="Cadastro de novas vagas.html" method="post">
+            <label for="data">Data de publicação:</label>
+            <input type="date" name="data" id="data"><br>
+            <label for="posição">Cargo:</label>
+            <input type="text" name="posição" id="posição"><br>
+            <label for="qualificações">Qualificações necessárias:</label><br>
+            <textarea name="qualificações" id="qualificações" rows="6" cols="50"></textarea><br>
+            <label for="funções">Funções que serão exercidas:</label><br>
+            <textarea name="funções" id="funções" rows="6" cols="50"></textarea><br>
+            <p>Tipo:</p>
+            <label for="Home Office">Home Office</label>
+            <input type="checkbox" value="Home Office">
+            <label for="Híbrido">Híbrido</label>
+            <input type="checkbox" value="Híbrido">
+            <label for="Presencial">Presencial</label>
+            <input type="checkbox" value="Presencial">
+            <p>Nível de Experiência necessário:</p>
+            <label for="Estagiário">Estagiário</label>
+            <input type="checkbox" value="Estagiário">
+            <label for="Júnior">Júnior</label>
+            <input type="checkbox" value="Júnior">
+            <label for="Pleno">Pleno</label>
+            <input type="checkbox" value="Pleno">
+            <label for="Sênior">Sênior</label>
+            <input type="checkbox" value="Sênior">
+            <label for="Indefinido">Indefinido</label>
+            <input type="checkbox" value="Indefinido"><br>
+            <input type="submit" value="Publicar">
+        </form>
+
+</body>
+
+</html>
