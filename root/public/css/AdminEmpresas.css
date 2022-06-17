@@ -48,39 +48,31 @@
     text-align: center;
 }
 
-.retangulonometabela {
-
-    position: absolute;
-    width: 1152px;
-    height: 69.41px;
-    left: 20px;
-    right: 20px;
-    top: 174px;
-    bottom: 0px;
-
-    background: #B00B18;
-    border: 3px solid #7D0711;
-}
-
 .nometabela {
     margin: auto;
-    position: relative;
-    width: 403.01px;
-    height: 42.92px;
+    position: absolute;
+    width: 1152px;
+    height: 80px;
+    left: 20px;
+    right: 20px;
+    top: 188px;
 
     font-size: 45px;
     line-height: 47px;
     text-align: center;
 
     color: #FFFFFF;
+    background-color: #B00B18;
+    box-sizing: inherit;
+    border: 3px solid #7D0711;
 }
 
-.acessarperfilbotão {
+.acessardescriçãobotão {
     position: absolute;
     width: 194px;
     height: 40px;
     left: 760px;
-    top: 2350px;
+    top: 1450px;
 
     background: #014263;
     border-radius: 5px;
@@ -92,7 +84,7 @@
     width: 194px;
     height: 40px;
     left: 978px;
-    top: 2350px;
+    top: 1450px;
 
     background: #014263;
     border-radius: 5px;
@@ -104,7 +96,7 @@
     width: 194px;
     height: 40px;
     left: 1206px;
-    top: 2350px;
+    top: 1450px;
 
     background: #7D0711;
     border-radius: 5px;
@@ -124,4 +116,22 @@
     text-align: center;
 
     color: #FFFFFF;
+}
+
+.rodapéConteúdo {
+    margin: none;
+    position: absolute;
+    width: 1450px;
+    height: 200px;
+    left: 0px;
+    top: 1500px;
+    padding-left: 20px;
+
+
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+    background: #7D0711;
+    border: none;
 }

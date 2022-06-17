@@ -1,182 +1,167 @@
-.ConheçaComunidade {
-    position: absolute;
-    width: 750px;
-    height: 307px;
-    left: 40px;
-    top: 120px;
+    .ConheçaComunidade {
+        position: absolute;
+        width: 640px;
+        height: 307px;
+        left: 20px;
+        top: 120px;
 
 
-    font-size: 42px;
-    line-height: 100px;
+        font-size: 38px;
+        line-height: 100px;
+        text-align: center;
 
-    color: #014263;
-}
+        color: #014263;
+    }
 
-.BotaoVagas {
-    position: absolute;
-    width: 356px;
-    height: 83px;
-    left: 60px;
-    top: 500px;
+    .BotaoVagas {
+        position: absolute;
+        width: 356px;
+        height: 83px;
+        left: 150px;
+        top: 490px;
 
-    background: #B00B18;
-    border-radius: 25px;
-    border: none;
-}
+        background: #B00B18;
+        border-radius: 25px;
+        border: none;
+    }
 
-.vagas {
-    margin: auto;
-
-
-    font-size: 40px;
-    line-height: 47px;
-
-    color: #FFFFFF;
-}
-
-.imagemhome1 {
-    position: absolute;
-    width: 600px;
-    height: 500px;
-    left: 654px;
-    top: 120px;
-    bottom: 550px;
-}
-
-.PainelMeio {
-    position: absolute;
-    width: 1440px;
-    height: 195px;
-    left: 0px;
-    top: 795px;
-
-    background: #B00B18;
-    border: none;
-}
-
-.TextoComunidade {
-    margin: auto;
-    position: absolute;
-    width: 750px;
-    height: 75px;
-    left: 40px;
-    bottom: 60px;
+    .vagas {
+        margin: auto;
 
 
-    font-size: 30px;
-    line-height: 42px;
+        font-size: 40px;
+        line-height: 47px;
 
-    color: #FFFFFF;
-}
+        color: #FFFFFF;
+    }
 
-.BotãoInscrever {
-    position: absolute;
-    width: 445px;
-    height: 70px;
-    left: 911px;
-    top: 860px;
+    .imagemhome1 {
+        position: absolute;
+        width: 600px;
+        height: 500px;
+        left: 650px;
+        top: 120px;
+        bottom: 550px;
+    }
 
-    background: #014263;
-    border-radius: 40px;
-    border: none;
-}
+    .TextoComunidade {
+        position: absolute;
+        width: 1450px;
+        bottom: 60px;
+        height: 265px;
+        left: 0px;
+        top: 750px;
+        padding-left: 40px;
+    
+        background-color: #B00B18;
+        border: none;
 
-.AlunoInscrever {
-    margin: auto;
-    position: relative;
-    width: 380px;
-    height: 30px;
+        font-size: 33px;
+        line-height: 42px;
 
+        color: #FFFFFF;
+    }
 
-    font-size: 26px;
-    line-height: 30px;
+    .BotãoInscrever {
+        position: absolute;
+        width: 445px;
+        height: 70px;
+        left: 911px;
+        top: 842px;
 
-    color: #FFFFFF;
-}
+        background: #014263;
+        border-radius: 40px;
+        border: none;
+    }
 
-.Sobre {
-    position: absolute;
-    width: 477px;
-    height: 117px;
-    left: 40px;
-    top: 1066px;
-
-
-    font-size: 40px;
-    line-height: 150px;
-
-    color: #014263;
-}
-
-.SobreNós {
-    position: absolute;
-    width: 500px;
-    height: 187px;
-    left: 40px;
-    top: 1220px;
-
-
-    font-size: 20px;
-    line-height: 30px;
-
-    color: #B00B18;
-}
-
-.imagemhome2 {
-    position: absolute;
-    width: 1000px;
-    height: 600px;
-    left: 534px;
-    top: 1200px;
-}
-
-.AcesseFATEC {
-    position: absolute;
-    width: 550px;
-    height: 83px;
-    left: 50px;
-    top: 1770px;
-
-    background: #014263;
-    border-radius: 30px;
-    border: none;
-}
-
-.FATEC {
-    margin: auto;
-    position: relative;
-    width: 500px;
-    height: 35px;
+    .AlunoInscrever {
+        margin: auto;
+        position: relative;
+        width: 380px;
+        height: 30px;
 
 
-    font-size: 30px;
-    line-height: 35px;
+        font-size: 26px;
+        line-height: 30px;
 
-    color: #FFFFFF;
-}
+        color: #FFFFFF;
+    }
 
-.rodapé {
-    position: absolute;
-    width: 1440px;
-    height: 195px;
-    left: 0px;
-    top: 2000px;
-
-    background: #7D0711;
-    border: none;
-}
-
-.rodapéConteúdo {
-    margin: none;
-    position: absolute;
-    width: 1200px;
-    height: 188px;
-    left: 20px;
-    top: 17px;
+    .Sobre {
+        position: absolute;
+        width: 477px;
+        height: 117px;
+        left: 40px;
+        top: 1066px;
 
 
-    font-size: 18px;
-    line-height: 22px;
-    text-align: left;
-    color: #FFFFFF;
-}
+        font-size: 40px;
+        line-height: 150px;
+
+        color: #014263;
+    }
+
+    .SobreNós {
+        position: absolute;
+        width: 500px;
+        height: 187px;
+        left: 40px;
+        top: 1220px;
+
+
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #B00B18;
+    }
+
+    .imagemhome2 {
+        position: absolute;
+        width: 1000px;
+        height: 600px;
+        left: 534px;
+        top: 1200px;
+    }
+
+    .AcesseFATEC {
+        position: absolute;
+        width: 550px;
+        height: 83px;
+        left: 50px;
+        top: 1770px;
+
+        background: #014263;
+        border-radius: 30px;
+        border: none;
+    }
+
+    .FATEC {
+        margin: auto;
+        position: relative;
+        width: 500px;
+        height: 35px;
+
+
+        font-size: 30px;
+        line-height: 35px;
+
+        color: #FFFFFF;
+    }
+
+    .rodapéConteúdo {
+        margin: none;
+        position: absolute;
+        width: 1450px;
+        height: 200px;
+        left: 0px;
+        top: 2000px;
+        padding-left: 20px;
+
+
+        font-size: 18px;
+        line-height: 22px;
+        text-align: justify;
+        color: #FFFFFF;
+        background: #7D0711;
+        border: none;
+    }

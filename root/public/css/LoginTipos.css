@@ -1,8 +1,8 @@
 .tudo {
     position: absolute;
     width: 1002px;
-    height: 792px;
-    left: 219px;
+    height: 500px;
+    left: 150px;
     top: 116px;
 
     background-color: #F1F1F1;
@@ -12,7 +12,7 @@
 
 .titulo {
     position: absolute;
-    top: 160px;
+    top: 70px;
     width: 1000px;
     left: 6px;
     font-size: 50px;
@@ -23,8 +23,8 @@
     position: absolute;
     width: 600px;
     height: 72px;
-    left: 420px;
-    top: 392px;
+    left: 350px;
+    top: 272px;
 
     background: #B00B18;
     border-radius: 15px;
@@ -35,8 +35,8 @@
     position: absolute;
     width: 600px;
     height: 72px;
-    left: 420px;
-    top: 484px;
+    left: 350px;
+    top: 364px;
 
     background: #B00B18;
     border-radius: 15px;
@@ -47,8 +47,8 @@
     position: absolute;
     width: 600px;
     height: 72px;
-    left: 420px;
-    top: 576px;
+    left: 350px;
+    top: 456px;
 
     background: #B00B18;
     border-radius: 15px;
@@ -60,4 +60,22 @@ position: relative;
 text-align: center;
  font-size: 35px;
  color: #FFFFFF;
+}
+
+.rodapéConteúdo {
+    margin: none;
+    position: absolute;
+    width: 1450px;
+    height: 200px;
+    left: 0px;
+    top: 750px;
+    padding-left: 20px;
+
+
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+    background: #7D0711;
+    border: none;
 }
