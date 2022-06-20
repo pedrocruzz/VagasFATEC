@@ -1,0 +1,355 @@
+.conteudo {
+    width: 1129px;
+    height: 694px;
+    margin: 0 auto;
+    background: #EBEBEB;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Flex Container */
+.container {
+    margin: 2%;
+    display: flex;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-item-1 {
+    flex: 1;
+}
+
+/* Flex Item */
+.vagaCompleta {
+    /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+    flex: 1;
+    width: 527px;
+    height: 825px;
+    background: #FFFFFF;
+    box-shadow: 4px 6px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    display: flex;
+}
+
+.itemAtivo {
+    /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+    flex: 1;
+    width: 870px;
+    height: 178px;
+    background: #EBEBEB;
+    border-radius: 59px;
+    box-shadow: 4px 6px 6px 4px rgba(0, 0, 0, 0.25);
+    margin: 1%;
+}
+
+.cidadeVagaLista {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.itemDesativado {
+    /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+    flex: 1;
+    width: 870px;
+    height: 178px;
+    background: #FFF;
+    border-radius: 59px;
+    box-shadow: 4px 6px 6px 4px rgba(0, 0, 0, 0.25);
+    margin: 1%;
+}
+
+.dataPublicacao {
+    margin: 1% auto;
+    margin-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #7D0711;
+}
+
+.tituloVaga {
+    margin-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    color: #B00B18;
+}
+
+.tituloVagaLista {
+    margin-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.empresaVaga {
+    flex: 1;
+    margin-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.empresaVagaLista {
+    flex: 1;
+    margin-left: 1%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.linhaVagaLista {
+    border: 1px solid #A8A8A8;
+    width: 770px;
+}
+
+.descricaoVagaLista {
+    width: 800px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.localVaga {
+    flex: 1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.logoPequena {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.titulo {
+    height: 40%;
+}
+
+.logoPequenaLista {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.linhaForm {
+    border: 1px solid #A8A8A8;
+    width: 770px;
+    height: 0px;
+}
+
+.nivelExperienciaTitulo {
+    margin: 1% auto;
+    text-align: left;
+    margin-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.botaoCandidatar {
+    margin: 10% auto;
+    width: 229px;
+    height: 51.6px;
+    background: #B00B18;
+    border-radius: 54px;
+    border: none;
+    cursor: pointer;
+}
+
+.botaoCandidatar:hover {
+    background-color: #7D0711;
+}
+
+.botaoCandidatar:active {
+    position: relative;
+    top: 1px;
+}
+
+.botaoCandidatarTexto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.descricao {
+    text-align: left;
+    margin-left: 5%;
+    height: 400px;
+    width: 378px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.logoVerificado {
+    margin: 30px;
+    width: 45px;
+    height: 45px;
+}
+
+.logoVerificadoLista {
+    margin: 25px 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.vagaCompleta {
+    margin: 0 auto;
+    width: 1179px;
+    height: 665px;
+    background: #FFFFFF;
+    box-shadow: 4px 6px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+}
+
+.botaoEditar {
+    margin-left: 150%;
+    margin-top: 15%;
+    border: none;
+    width: 188px;
+    height: 64px;
+    background: #014263;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.botaoEditarTexto {
+    width: 78px;
+    height: 35px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.nomeEmpresa {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #000000;
+}
+
+.descricaoEmpresaTitulo {
+    color: white;
+    text-align: center;
+    width: 1131px;
+    height: 52px;
+    background: #B00B18;
+    border-radius: 4px;
+}
+
+.descricaoEmpresa {
+    width: 1131px;
+    height: 169px;
+    background: #F6F6F6;
+    border-radius: 1px;
+}
+
+.descricaoEmpresaTexto {
+    margin-top: 2%;
+    width: 1090px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.headEmpresa{
+    margin: 0 auto;
+    width: 1129px;
+}
+
+.vagasCadastradas{
+    margin-top: 2% !important;
+    border-radius: 59px;
+    width: 1129px;
+    height: 100px;
+    margin: 0 auto;
+    background: white;
+}

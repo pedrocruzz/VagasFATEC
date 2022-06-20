@@ -1,116 +1,144 @@
-.login {}
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Flex Container */
+.container {
+    margin: 2%;
+    display: flex;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-item-1 {
+    flex: 1;
+}
 
 .base {
-    margin: 0 auto;
     width: 1002px;
     height: 792px;
     background: #F1F1F1;
     border-radius: 50px;
 }
 
-.inputList{
-    margin: 0 auto;
-}
-.input {
+.inputs {
+    margin-top: 5%;
     width: 709px;
     height: 72px;
-    margin-top: 5%;
     background: #FFFFFF;
     border-radius: 15px;
-}
-
-.input2 {
-    width: 709px;
-    height: 72px;
-    margin-top: 5%;
-    background: #FFFFFF;
-    border-radius: 15px;
-}
-
-.input3 {
-    width: 709px;
-    height: 72px;
-    margin-top: 5%;
-    background: #FFFFFF;
-    border-radius: 15px;
-}
-
-.input4 {
-    width: 709px;
-    height: 72px;
-    margin-top: 5%;
-    background: #FFFFFF;
-    border-radius: 15px;
-}
-
-.input5 {
-    width: 709px;
-    height: 72px;
-    margin-top: 5%;
-    background: #FFFFFF;
-    border-radius: 15px;
-}
-
-.buttonConfirmar {
-    position: absolute;
-    left: 42.5%;
-    right: 42.21%;
-    top: 80.27%;
-    bottom: 14.26%;
-    background: #FC0F23;
-    border-radius: 25px;
+    border: none;
+    padding: 15px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    border: none;
-    color: #FFFFFF;
+
+    color: #8A8888;
 }
 
-.labelFormat {
+input:focus {
+    outline: 1px solid #FC0F23;
+}
+
+
+.botaoConfirmar {
+    margin: 5% auto;
+    width: 229px;
+    height: 51.6px;
+    background: #FC0F23;
+    border-radius: 54px;
+    border: none;
+    cursor: pointer;
+}
+
+.botaoConfirmar:hover {
+    background-color: #7D0711;
+}
+
+.botaoConfirmar:active {
+    position: relative;
+    top: 1px;
+}
+
+.botaoConfirmarTexto {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FC0F23;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-.inputFormat {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: none;
-    border-bottom: 1px solid #000000;
-}
-
-#flex-container {
-    display: flex;
-    flex-direction: row;
-}
-
-#flex-container>.flex-item {
-    flex: auto;
-}
-
-#flex-container>.raw-item {
-    flex: auto;
-    height: 20px;
-}
-
-.tituloCadastro {
-    color: #FC0F23;
+.cadastro {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    width: 800px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
+    color: #FC0F23;
 }
 
 .linhaCadastro {
-    position: absolute;
-    width: 527px;
+    flex: left;
     height: 0px;
+    padding: 0 300px;
+    margin-left: 50px;
     border: 1px solid #B00B18;
+}
+
+.labelTexto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-block;
+    width: 150px;
+    color: #FC0F23;
 }

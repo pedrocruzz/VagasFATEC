@@ -46,7 +46,7 @@
 
     .TextoComunidade {
         position: absolute;
-        width: 1450px;
+        width: 100%;
         bottom: 60px;
         height: 265px;
         left: 0px;
@@ -148,20 +148,3 @@
         color: #FFFFFF;
     }
 
-    .rodapéConteúdo {
-        margin: none;
-        position: absolute;
-        width: 1450px;
-        height: 200px;
-        left: 0px;
-        top: 2000px;
-        padding-left: 20px;
-
-
-        font-size: 18px;
-        line-height: 22px;
-        text-align: justify;
-        color: #FFFFFF;
-        background: #7D0711;
-        border: none;
-    }
