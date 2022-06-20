@@ -1,4 +1,9 @@
 
+    body{
+        width: 100%;
+        margin: 0 auto;
+    }
+
 .TabelaEmpresas {
     border-collapse: collapse;
     box-sizing: content-box;
@@ -37,6 +42,13 @@
     width: auto;
 }
 
+.linhasexemplo {
+    border: 1px solid #7D0711;
+    text-align: center;
+    width: auto;
+    background-color: #F1F1F1;
+}
+
 .conteúdotabela {
     margin: auto;
     font-size: 22px;
@@ -67,11 +79,11 @@
     border: 3px solid #7D0711;
 }
 
-.acessardescriçãobotão {
+.acessarperfilbotão {
     position: absolute;
     width: 194px;
     height: 40px;
-    left: 760px;
+    left: 1460px;
     top: 1450px;
 
     background: #014263;
@@ -83,7 +95,7 @@
     position: absolute;
     width: 194px;
     height: 40px;
-    left: 978px;
+    left: 1678px;
     top: 1450px;
 
     background: #014263;
@@ -95,7 +107,7 @@
     position: absolute;
     width: 194px;
     height: 40px;
-    left: 1206px;
+    left: 1906px;
     top: 1450px;
 
     background: #7D0711;
@@ -121,7 +133,7 @@
 .rodapéConteúdo {
     margin: none;
     position: absolute;
-    width: 1450px;
+    width: 100%;
     height: 200px;
     left: 0px;
     top: 1500px;
@@ -134,4 +146,10 @@
     color: #FFFFFF;
     background: #7D0711;
     border: none;
+}
+
+.botoes{
+    width: 100%;
+    display: flex;
+    align-content: right;
 }
