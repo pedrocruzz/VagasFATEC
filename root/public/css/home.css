@@ -52,7 +52,7 @@
 
     .TextoComunidade {
         position: absolute;
-        width: 1450px;
+        width: 100%;
         bottom: 60px;
         height: 265px;
         left: 0px;
@@ -171,3 +171,5 @@
         background: #7D0711;
         border: none;
     }
+
+
