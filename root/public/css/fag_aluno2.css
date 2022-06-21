@@ -1,0 +1,89 @@
+h1 {
+
+text-align: center;
+
+
+font-weight: 400;
+font-size: 96px;
+line-height: 112px;
+
+
+color: #FC0F23;
+
+}
+
+.DUVIDAS {
+
+text-align: center;
+font-weight: 400;
+font-size: 26px;
+line-height: 42px;
+
+color: #495259;
+
+}
+
+.PERGUNTA1 {
+
+text-align:justify;
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+
+color: #FFFFFF
+
+}
+
+.PERGUNTA2 {
+
+text-align:justify;
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+}
+.CAMPO_PERGUNTA1 {
+
+left: 166px;
+top: 620px;
+
+background: #EBEBEB;
+border-radius: 5px;
+
+}
+
+.CAMPO_PERGUNTA2 {
+
+background: #EBEBEB;
+border-radius: 5px;
+
+}
+
+.ICONE_PERGUNTA1 {
+
+background: #B00B18;
+border-radius: 15px;
+border: none;
+
+}
+
+.ICONE_PERGUNTA2 {
+
+background: #B00B18;
+border-radius: 15px;
+border: none;
+
+}
+
+p {
+
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+
+color: #B00B18;
+
+}
+

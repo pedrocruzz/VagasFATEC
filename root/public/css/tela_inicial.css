@@ -1,0 +1,87 @@
+h1{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 59px;
+
+text-align: center;
+
+color: #014263;
+
+}
+
+.ACESSO_ALUNO {
+
+position: absolute;
+width: 415px;
+height: 76px;
+left: 46px;
+top: 313px;
+
+background: #B00B18;
+border-radius: 25px;
+border:none;
+
+}
+
+.ALUNOS {
+
+margin:auto;
+
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
+
+}
+
+p{
+margin: auto;
+
+font-size: 20px;
+
+
+color: #FFFFFF;
+
+}
+
+.ACESSO_VAGAS {
+
+position: absolute;
+width: 415px;
+height: 76px;
+left: 46px;
+top: 450px;
+
+background: #B00B18;
+border-radius: 25px;
+border:none;
+
+}
+
+.ACESSO_EMPRESAS {
+
+position: absolute;
+width: 415px;
+height: 76px;
+left: 46px;
+top: 587px;
+
+background: #B00B18;
+border-radius: 25px;
+border:none;
+
+}
+
+figure {
+
+position: absolute;
+width: 841px;
+height: 595px;
+left: 498px;
+top: 213px;
+
+}
+
