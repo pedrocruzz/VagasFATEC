@@ -1,7 +1,7 @@
 # VagasFATEC
-##Projeto Interdisciplinar
+## Projeto Interdisciplinar
 
-###Fatec Vagas
+### Fatec Vagas
 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/105252525/174690303-e376091c-b3ca-4b3c-b8d9-7e7321d4b234.png)
 
