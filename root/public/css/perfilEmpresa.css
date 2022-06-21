@@ -353,3 +353,26 @@
     margin: 0 auto;
     background: white;
 }
+
+.botaoEditar {
+    border: none;
+    width: 80px;
+    height: 30px;
+    margin-left: 90%;
+    margin-top: 5%;
+    margin-right: 1%;
+    background: #014263;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.botaoEditarTexto {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+
+    color: #FFFFFF;
+}

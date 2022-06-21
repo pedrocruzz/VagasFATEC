@@ -5,20 +5,19 @@
     <meta charset="utf-8" <meta name="viewport" content="width-device-width, initial-scale-1.0">
     <title>PERFIL - Aluno</title>
     <link rel="stylesheet" href="../public/css/main.css">
-    <link rel="stylesheet" href="../public/css/perfilAlunoE.css">
+    <link rel="stylesheet" href="../public/css/perfilAlunoA.css">
 
 </head>
 
 <body>
-
     <div class="topnav">
         <a href="../index.html" class="titulo">FATEC ITAPIRA</a>
         <img src="../public/img/perfil.png" alt="" class="perfil">
-        <a href="perfilEmpresa.html">Microsoft</a>
-        <a href="cadastrarVaga.html">Sair</a>
+        <a href="perfilAluno.html">Gabriel da Silva</a>
+        <a href="../index.html">Sair</a>
         <div class="linha"></div>
-        <a href="VagasCadastradas.html">Vagas Cadastradas</a>
-        <a href="faq_empresa.html">FAQ</a>
+        <a href="vagasAluno.html">Vagas</a>
+        <a href="faq_aluno2.html">FAQ</a>
     </div>
 
     <br><br>
@@ -28,7 +27,6 @@
             <div class="container column">
             <div class="texto"><p class="nomealuno">Gabriel da Silva</p></div>
             <br><div class="texto"><p class="RA">123456789123</p></div>
-
     </div>
     </div>
     <div class="conteudo">
@@ -36,11 +34,20 @@
         <div class="Curriculo">
         <h1 class="curriculo">Currículo:</h1>
         </div>
-        <a href="../Curriculo-Exemplo/Curriculo_Exemplo.docx.pdf">
         <div class="arquivocurriculo">
-         <button class="botaocurriculo"><br><br><img src="../public/img/curriculo.png" alt="Botão currículo" class="curriculobotao" inputmode="file"><br><br><br></button>
+            <br><br><br><br><label for="curriculo"> Insira seu currículo:</label>
+            <input type="file" id="curriculo">
         </div>
-
+        <div class="cadastronasvagas"><h1 class="descricaoAlunoTitulo">Cadastrado nas Vagas: </h1></div>
+        <div class="vagasCadastradas">
+                        <button class="botaoEditarExcluir"><p class="botaoEditarTexto">Excluir</p></button>
+        <div class="vagasCadastradas">
+            <img class="logoempresa" src="../public/img/microsoft.png" alt="Ícone empresa">
+            <h1 class="tituloVagaLista">Desenvolvedor Full Stack</h1>
+            <p class="nomemepresa">Microsoft</p>
+            <p class="cidade">Itapira, SP</p><br>
+        </div>
+    </div>
 </div>
     <div class="rodapéConteúdo">
         <br>
