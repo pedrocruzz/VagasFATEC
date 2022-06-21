@@ -1,84 +1,221 @@
+.tituloVaga {
+    width: 713px;
+    height: 65px;
+    background: #014263;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
 
 .vaga {
-    background-color: #EBEBEB;
-    display: flex;
-    box-sizing: content-box;
-    padding: 20px 20px 20px 20px;
-    margin-right: 50%;
-    width: 800px;
-    height: 500px;
-    float: right;
-
+    width: 713px;
+    height: 1050px;
+    background: #EBEBEB;
 }
 
-.responsabilidades {
-    position: relative;
-    margin-top: 5%;
-    margin-left: 0%;
-    margin-right: 40%;
-
-}
-
-.qualificacoes {
-    position: relative;
-    margin-top: 20%;
-    margin-left: 0%;
-
-}
-
-.CadastrarNovaVaga {
-    background-color: #B00B18;
-    border-radius: 5px;
-    padding: 5px;
-    border: none;
-    width: 500px;
-    height: 90px;
-    margin-left: 80%;
-    cursor: pointer;
-}
-
-.cadastrarnova {
-    color: #FFFFFF;
-    font-weight: 500px;
-    font-size: 40px;
-    left: 55px;
-    width: 500px;
-
-}
-
-.linhas {
-    width: 500px;
-}
-
-.cadidataçoes {
-    cursor: pointer;
-    color: #014263;
-}
-
-.Vagas {
-    font-weight: 500px;
-    color: #FFFFFF;
-    background-color: #014263;
-    line-height: 60px;
-    height: 60px;
-    width: 800px;
-    text-align: center;
-    display: flex;
-}
-
-.conteiner {
-    width: 800px;
-    height: 400px;
-    align-content: left;
-}
-
-.img {
-    float: left;
-}
-
-h2 {
+.tituloVagaTexto {
+    margin-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
     color: #B00B18;
-    font-weight: 500px;
-    width: 700px;
+}
+
+.tituloVagaLista {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    color: #B00B18;
+}
+
+.empresaVaga {
+    flex: 1;
+    margin-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.empresaVagaLista {
+    flex: 1;
+    margin-left: 1%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.linhaVagaLista {
+    border: 1px solid #A8A8A8;
+    width: 770px;
+}
+
+.descricaoVagaLista {
+    width: 800px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.localVaga {
+    flex: 1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.logoPequena {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.titulo {
+    height: 40%;
+}
+
+.logoPequenaLista {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.nivelExperienciaTitulo {
+    margin: 1% auto;
+    text-align: left;
+    margin-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.descricao {
+    margin: 3% auto;
+    text-align: left;
+    margin-left: 5%;
+    height: 200px;
+    width: 378px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+}
+
+.dataPublicacao {
+    margin: 1% auto;
+    margin-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #7D0711;
+}
+
+.botaoCadastrar {
+    border: none;
+    width: 394px;
+    height: 65px;
+    background: #B00B18;
+    border-radius: 10px;
+}
+
+.botaoCadastrarTexto {
+    width: 274px;
+    height: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.botaoCadastrar:hover {
+    background-color: #7D0711;
+}
+
+.botaoCadastrar:active {
+    position: relative;
+    top: 1px;
+}
+
+.botaoCandidatar {
+    margin: 0 5%;
+    width: 227px;
+    height: 34px;
+    background: #7D0711;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.botaoCandidatar:hover {
+    background-color: #7D0711;
+}
+
+.botaoCandidatar:active {
+    position: relative;
+    top: 1px;
+}
+
+.botaoCandidatarTexto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.vagaCompleta {
+    width: 688px;
+    height: 414px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.canditacoes {
+    width: 121px;
+    height: 18px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #014263;
 }
