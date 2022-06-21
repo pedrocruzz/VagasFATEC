@@ -55,7 +55,7 @@
 
 .principal {
     width: 1310px;
-    height: 775px;
+    height: 2005px;
     background: #EBEBEB;
     border-radius: 3px;
 }
@@ -75,6 +75,7 @@
     font-weight: 400;
     font-size: 35px;
     line-height: 41px;
+    padding-top: 30px;
     /* identical to box height */
 
 
@@ -83,7 +84,9 @@
 
 .perfilUser {
     width: 63px;
-    height: 66.2px;
+    height: 86.2px;
+    padding-top: 20px;
+
 }
 
 .curriculo {
@@ -103,6 +106,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    padding-top: 10px;
     /* identical to box height */
 
 
@@ -119,6 +123,7 @@
     text-align: center;
     width: 1310px;
     height: 65px;
+    padding-top: 15px;
 
     background: #014263;
     border-radius: 2px;

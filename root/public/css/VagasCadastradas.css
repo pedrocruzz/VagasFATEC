@@ -1,0 +1,84 @@
+
+
+.vaga {
+    background-color: #EBEBEB;
+    display: flex;
+    box-sizing: content-box;
+    padding: 20px 20px 20px 20px;
+    margin-right: 50%;
+    width: 800px;
+    height: 500px;
+    float: right;
+
+}
+
+.responsabilidades {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 40%;
+
+}
+
+.qualificacoes {
+    position: relative;
+    margin-top: 20%;
+    margin-left: 0%;
+
+}
+
+.CadastrarNovaVaga {
+    background-color: #B00B18;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    width: 500px;
+    height: 90px;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.cadastrarnova {
+    color: #FFFFFF;
+    font-weight: 500px;
+    font-size: 40px;
+    left: 55px;
+    width: 500px;
+
+}
+
+.linhas {
+    width: 500px;
+}
+
+.cadidataçoes {
+    cursor: pointer;
+    color: #014263;
+}
+
+.Vagas {
+    font-weight: 500px;
+    color: #FFFFFF;
+    background-color: #014263;
+    line-height: 60px;
+    height: 60px;
+    width: 800px;
+    text-align: center;
+    display: flex;
+}
+
+.conteiner {
+    width: 800px;
+    height: 400px;
+    align-content: left;
+}
+
+.img {
+    float: left;
+}
+
+h2 {
+    color: #B00B18;
+    font-weight: 500px;
+    width: 700px;
+}
